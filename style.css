@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background: rgb(223, 220, 220);
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    padding-left: 0;
+}
+form{
+    width: 30%;
+    height: 44vh;
+    background: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 2px 4px 4px black;
+    border-radius: 5px;
+}
+.form{
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px 15px 15px;
+    background: transparent;
+}
+input{
+    width: 105%;
+    background: transparent;
+    padding: 10px 10px;
+    margin-bottom: 7px;
+    border-color:rgb(223, 222, 222);
+    border-radius: 5px;
+}
+input::placeholder{
+    color: rgb(211, 206, 206);
+}
+.inputs{
+    background: transparent;
+    margin-bottom: 20px;
+}
+.buttons{
+    padding-left: 20px;
+    background: transparent;
+}
+button{
+    background: transparent;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.buttons hr{
+    width: 100%;
+    margin-top: 10px;
+}
+.write-up{
+    padding-right: 20px;
+}
+.write-up h2{
+    font-size: 37px;
+    font-weight: 600;
+    padding-right: 170px;
+    color: rgb(81, 97, 236);
+}
+.write-up p{
+    font-size: 19px;
+    font-weight: 400;
+}
+.par{
+    margin-right: 100px;
+}
+.submit{
+    border: none;
+    background:rgb(81, 97, 236);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    width: 113%;
+    padding: 7px 10px;
+}
+.create{
+    margin-top: 15px;
+    background: rgb(4, 219, 33);
+    border: none;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin-top: 10px;
+}
+.pass{
+    color: rgb(81, 97, 236);
+    font-weight: 600;
+    border: none;
+}
+h5{
+    background: transparent;
+    font-size: 15px;
+    color: rgb(37, 35, 35);
+    padding-top: 10px;
+}
+span{
+    font-weight: 600;
+    color: black;
+    background: transparent;
+}
